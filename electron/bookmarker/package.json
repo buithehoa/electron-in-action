@@ -4,6 +4,7 @@
   "description": "Our application accepts URLs. When the user provides a ...",
   "main": "./app/main.js",
   "scripts": {
+    "start": "electron .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
