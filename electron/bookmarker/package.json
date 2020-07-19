@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/buithehoa/hacklab/issues"
   },
-  "homepage": "https://github.com/buithehoa/hacklab#readme"
+  "homepage": "https://github.com/buithehoa/hacklab#readme",
+  "dependencies": {
+    "electron": "^9.1.0"
+  }
 }
