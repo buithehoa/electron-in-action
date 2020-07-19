@@ -1,0 +1,22 @@
+{
+  "name": "bookmarker",
+  "version": "1.0.0",
+  "description": "Our application accepts URLs. When the user provides a ...",
+  "main": "./app/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/buithehoa/hacklab.git"
+  },
+  "keywords": [
+    "electron"
+  ],
+  "author": "Bui The Hoa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/buithehoa/hacklab/issues"
+  },
+  "homepage": "https://github.com/buithehoa/hacklab#readme"
+}
