@@ -47,6 +47,11 @@ const renderLinks = () => {
   linksSection.innerHTML = linkElements;
 }
 
+clearStorageButton.addEventListener('click', () => {
+  localStorage.clear();
+  linksSection.innerHTML = '';
+});
+
 newLinkForm.addEventListener('submit', (event) => {
   event.preventDefault();
   const url = newLinkUrl.value;
