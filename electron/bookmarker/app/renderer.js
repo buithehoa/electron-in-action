@@ -34,5 +34,7 @@ newLinkForm.addEventListener('submit', (event) => {
   fetch(url)
     .then(response => response.text())
     .then(parseResponse)
-    .then(findTitle);
+    .then(findTitle)
+    .then(title => storeLink(title, url))
+    .then(clearForm);
 });
