@@ -1,0 +1,23 @@
+{
+  "name": "firesale",
+  "version": "1.0.0",
+  "description": "A Markdown editor",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/buithehoa/hacklab.git"
+  },
+  "main": "./app/main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "marked": "^1.2.7"
+  },
+  "devDependencies": {
+    "electron": "^11.2.3"
+  }
+}
