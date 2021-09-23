@@ -21,6 +21,9 @@
   },
   "homepage": "https://github.com/buithehoa/hacklab#readme",
   "dependencies": {
-    "electron": "^9.4.4"
+    "electron": "^9.4.4",
+    "normalize-url": ">=4.5.1",
+    "lodash": ">=4.17.21",
+    "marked": ">=2.0.0"
   }
 }
