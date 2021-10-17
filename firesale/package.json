@@ -4,7 +4,7 @@
   "description": "A Markdown editor",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/buithehoa/hacklab.git"
+    "url": "git+https://github.com/buithehoa/electron-in-action.git"
   },
   "main": "./app/main.js",
   "scripts": {
@@ -15,9 +15,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "marked": "^1.2.7"
+    "marked": "^1.2.9"
   },
   "devDependencies": {
-    "electron": "^11.2.3"
+    "electron": "^11.5.0"
   }
 }
