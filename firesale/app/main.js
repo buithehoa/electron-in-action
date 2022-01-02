@@ -16,6 +16,7 @@ app.on('ready', () => {
 
   mainWindow.once('ready-to-show', () => {
     mainWindow.show();
+    mainWindow.webContents.openDevTools();
   });
 
   mainWindow.on('closed', () => {
