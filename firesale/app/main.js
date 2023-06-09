@@ -32,5 +32,5 @@ const getFileFromUser = () => {
 
   if (!files) return;
 
-  console.log(files);
+  console.log('file', files);
 }
