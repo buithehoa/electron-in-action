@@ -15,8 +15,8 @@ app.on('ready', () => {
   mainWindow.loadURL(`file://${__dirname}/index.html`);
 
   mainWindow.once('ready-to-show', () => {
+    // mainWindow.webContents.openDevTools();
     mainWindow.show();
-    mainWindow.webContents.openDevTools();
     getFileFromUser();
   });
 
