@@ -12,10 +12,13 @@ const openInDefaultButton = document.querySelector('#open-in-default');
 
 const renderMarkdownToHtml = (markdown) => {
   htmlView.innerHTML = marked(markdown, { sanitize: true });
-}
+};
 
 markdownView.addEventListener('keyup', (event) => {
-  console.log('eh?');
   const currentContent = event.target.value;
   renderMarkdownToHtml(currentContent);
+});
+
+openFileButton.addEventListener('click', () => {
+  alert('You clicked the "Open File" button.');
 });

@@ -18,7 +18,6 @@ app.on('ready', () => {
   mainWindow.once('ready-to-show', () => {
     // mainWindow.webContents.openDevTools();
     mainWindow.show();
-    getFileFromUser();
   });
 
   mainWindow.on('closed', () => {
