@@ -28,9 +28,7 @@ app.on('ready', () => {
 const getFileFromUser = () => {
   const files = dialog.showOpenDialog({
     properties: ['openFile']
+  }).then(result => {
+    console.log("filePath", result.filePaths);
   });
-
-  if (!files) return;
-
-  console.log('file', files);
 }
