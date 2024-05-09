@@ -25,7 +25,7 @@ app.on('ready', () => {
   });
 });
 
-const getFileFromUser = () => {
+const getFileFromUser = exports.getFileFromUser = () => {
   let fileContent = null;
 
   dialog.showOpenDialog({
